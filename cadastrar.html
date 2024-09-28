@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicial | DriveNIT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="lc-body" id="cadastrar-body">
+  <main>
+    <div class="cadastrar-container">
+      <form id="form-cadastro">
+        <span>Criar Conta</span>
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInput" placeholder="Usuário" required>
+          <label for="floatingInput"></label>
+          <div class="invalid-feedback">
+          </div>
+          <hr>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="Email" required>
+          <label for="floatingInput"></label>
+          <div class="invalid-feedback">
+          </div>
+          <hr>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Senha" required minlength="6">
+          <label for="floatingPassword"></label>
+          <div class="invalid-feedback">
+          </div>
+          <hr>
+        </div>
+        <button type="submit" class="btn btn-primary lc-btn">Cadastrar</button>
+      </form>
+      <div class="opcao-login">
+        <p>Já possui uma conta?</p>
+        <a href="login.html"><button class="btn btn-primary lc-btn" id="opcao-login-btn">Login</button></a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
