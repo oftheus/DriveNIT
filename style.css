@@ -491,6 +491,49 @@ footer{
   gap: 20px;
 }
 
+#alugar{
+  padding: 30px 30px 60px 30px;
+  display: none;
+}
+
+#aluguel-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  input{
+    width: 300px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 4px 4px 10px var(--theme-color-dark-blue);
+  }
+}
+
+.reservar-btn{
+  background-color: var(--theme-color-green);
+  color: var(--theme-color-white);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid var(--theme-color-white);
+  text-decoration: none;
+}
+.reservar-btn:hover{
+  transition: 0.3s;
+  background-color: #038153;
+}
+
+#minhas-reservas-container{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
 
 
 @media(max-width: 1200px){
